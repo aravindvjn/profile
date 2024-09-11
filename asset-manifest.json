@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.f32a5fad.css",
+    "main.js": "/profile/static/js/main.70425290.js",
+    "static/media/instagram.png": "/profile/static/media/instagram.ece2b7d03ef47ac7f613.png",
+    "static/media/newsPageThumnail.jpg": "/profile/static/media/newsPageThumnail.557c5a4230312d518286.jpg",
+    "static/media/postgresql.png": "/profile/static/media/postgresql.ec1ed350cd9280339a9c.png",
+    "static/media/simonGame.png": "/profile/static/media/simonGame.a36119abd8d87606754c.png",
+    "static/media/express.png": "/profile/static/media/express.0cf5109c46427987e903.png",
+    "static/media/mongodb.png": "/profile/static/media/mongodb.96340969fe19e16c8d9f.png",
+    "static/media/react.png": "/profile/static/media/react.ed69098c880481f3fa1d.png",
+    "static/media/node.png": "/profile/static/media/node.5a064571ea075c81cffc.png",
+    "static/media/githubClr.png": "/profile/static/media/githubClr.75b2febd1126a3cb3a3a.png",
+    "static/media/gmailClr.png": "/profile/static/media/gmailClr.c7f1982e235217999985.png",
+    "static/media/linkedinClr.png": "/profile/static/media/linkedinClr.3c9d87962d6f9945c193.png",
+    "static/media/whatsapp.png": "/profile/static/media/whatsapp.08790ca4f78484046110.png",
+    "static/media/github.png": "/profile/static/media/github.e1a8150572273f5d7222.png",
+    "static/media/linkedin.png": "/profile/static/media/linkedin.936f9e25a9d2b315a698.png",
+    "static/media/gmail.png": "/profile/static/media/gmail.d941953e61b57be83606.png",
+    "static/media/profile.jpg": "/profile/static/media/profile.8d101ac251e34c16525e.jpg",
+    "index.html": "/profile/index.html",
+    "main.f32a5fad.css.map": "/profile/static/css/main.f32a5fad.css.map",
+    "main.70425290.js.map": "/profile/static/js/main.70425290.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f32a5fad.css",
+    "static/js/main.70425290.js"
+  ]
+}
