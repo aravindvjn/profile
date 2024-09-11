@@ -1,5 +1,7 @@
 import React from "react";
 import newsPageThumbnail from './assests/newsPageThumnail.jpg'
+import simonGame from './assests/simonGame.png'
+
 
 const Projects = () => {
   const projects = [
@@ -12,12 +14,12 @@ const Projects = () => {
       githubLink:"https://github.com/aravindvjn/demonews",
     },
     {
-      name: "Loading..",
-      img: "https://i.pinimg.com/originals/7e/2a/eb/7e2aeb1567e91bfc2404cecca6aceecd.gif",
+      name: "Simon: The Desktop Game",
+      img: simonGame,
       content:
-        " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos ratione repudiandae, sapiente, ad libero ducimus ipsum iure distinctio similique molestias cum animi ea unde, adipisci maxime autem nostrum voluptas tempore.",
-      link: "",
-      githubLink : ""
+        "A web-based recreation of the classic Simon game, featuring four colored buttons. Players aim to match a progressively longer sequence of colors, providing a fun and challenging test of memory. Built using HTML, CSS, and JavaScript with jQuery.",
+      link: "https://aravindvjn.github.io/simonGame/",
+      githubLink : "https://github.com/aravindvjn/simonGame"
     },
     {
       name: "Loading..",
