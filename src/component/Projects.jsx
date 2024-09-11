@@ -21,22 +21,6 @@ const Projects = () => {
       link: "https://aravindvjn.github.io/simonGame/",
       githubLink : "https://github.com/aravindvjn/simonGame"
     },
-    {
-      name: "Loading..",
-      img: "https://i.pinimg.com/originals/7e/2a/eb/7e2aeb1567e91bfc2404cecca6aceecd.gif",
-      content:
-        " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos ratione repudiandae, sapiente, ad libero ducimus ipsum iure distinctio similique molestias cum animi ea unde, adipisci maxime autem nostrum voluptas tempore.",
-      link: "",
-      githubLink : ""
-    },
-    {
-      name: "Loading..",
-      img: "https://i.pinimg.com/originals/7e/2a/eb/7e2aeb1567e91bfc2404cecca6aceecd.gif",
-      content:
-        " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos ratione repudiandae, sapiente, ad libero ducimus ipsum iure distinctio similique molestias cum animi ea unde, adipisci maxime autem nostrum voluptas tempore.",
-      link: "",
-      githubLink : ""
-    },
    
   ];
 
