@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.f32a5fad.css",
-    "main.js": "/profile/static/js/main.70425290.js",
+    "main.js": "/profile/static/js/main.642c4cd8.js",
+    "static/media/DP2.jpg": "/profile/static/media/DP2.ee19c1721dabb2cbaf35.jpg",
     "static/media/instagram.png": "/profile/static/media/instagram.ece2b7d03ef47ac7f613.png",
     "static/media/newsPageThumnail.jpg": "/profile/static/media/newsPageThumnail.557c5a4230312d518286.jpg",
     "static/media/postgresql.png": "/profile/static/media/postgresql.ec1ed350cd9280339a9c.png",
     "static/media/simonGame.png": "/profile/static/media/simonGame.a36119abd8d87606754c.png",
+    "static/media/Quintrelix.jpg": "/profile/static/media/Quintrelix.b22a22de6f578a6f8873.jpg",
     "static/media/express.png": "/profile/static/media/express.0cf5109c46427987e903.png",
     "static/media/mongodb.png": "/profile/static/media/mongodb.96340969fe19e16c8d9f.png",
     "static/media/react.png": "/profile/static/media/react.ed69098c880481f3fa1d.png",
@@ -20,10 +22,10 @@
     "static/media/profile.jpg": "/profile/static/media/profile.8d101ac251e34c16525e.jpg",
     "index.html": "/profile/index.html",
     "main.f32a5fad.css.map": "/profile/static/css/main.f32a5fad.css.map",
-    "main.70425290.js.map": "/profile/static/js/main.70425290.js.map"
+    "main.642c4cd8.js.map": "/profile/static/js/main.642c4cd8.js.map"
   },
   "entrypoints": [
     "static/css/main.f32a5fad.css",
-    "static/js/main.70425290.js"
+    "static/js/main.642c4cd8.js"
   ]
 }
