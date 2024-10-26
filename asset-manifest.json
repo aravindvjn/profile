@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.38f67192.css",
-    "main.js": "/profile/static/js/main.03c6a41b.js",
+    "main.css": "/profile/static/css/main.228144d2.css",
+    "main.js": "/profile/static/js/main.7341c7ac.js",
     "static/media/DP2.jpg": "/profile/static/media/DP2.ee19c1721dabb2cbaf35.jpg",
     "static/media/instagram.png": "/profile/static/media/instagram.ece2b7d03ef47ac7f613.png",
     "static/media/postgresql.png": "/profile/static/media/postgresql.ec1ed350cd9280339a9c.png",
     "static/media/express.png": "/profile/static/media/express.0cf5109c46427987e903.png",
-    "static/media/mongodb.png": "/profile/static/media/mongodb.96340969fe19e16c8d9f.png",
     "static/media/react.png": "/profile/static/media/react.ed69098c880481f3fa1d.png",
     "static/media/node.png": "/profile/static/media/node.5a064571ea075c81cffc.png",
     "static/media/githubClr.png": "/profile/static/media/githubClr.75b2febd1126a3cb3a3a.png",
@@ -18,11 +17,11 @@
     "static/media/gmail.png": "/profile/static/media/gmail.d941953e61b57be83606.png",
     "static/media/profile.jpg": "/profile/static/media/profile.8d101ac251e34c16525e.jpg",
     "index.html": "/profile/index.html",
-    "main.38f67192.css.map": "/profile/static/css/main.38f67192.css.map",
-    "main.03c6a41b.js.map": "/profile/static/js/main.03c6a41b.js.map"
+    "main.228144d2.css.map": "/profile/static/css/main.228144d2.css.map",
+    "main.7341c7ac.js.map": "/profile/static/js/main.7341c7ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.38f67192.css",
-    "static/js/main.03c6a41b.js"
+    "static/css/main.228144d2.css",
+    "static/js/main.7341c7ac.js"
   ]
 }
