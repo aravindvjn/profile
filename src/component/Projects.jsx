@@ -12,15 +12,18 @@ const Projects = () => {
       </span>
       <br />
       <div className="whole-projects">
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
-            <div key={project.id} className="each-project">
-              <div 
-                onClick={() => setGetId(project.id === getId ? "" : project.id)}
-              >
+            <div key={index} className="each-project">
+              <div onClick={() => setGetId(index === getId ? "" : index)}>
                 <h6>{project.name}</h6>
                 <svg
-                  style={{ cursor: "pointer",transform:`${project.id === getId ? "rotateX(180deg)": "none"}` }}
+                  style={{
+                    cursor: "pointer",
+                    transform: `${
+                      index === getId ? "rotateX(180deg)" : "none"
+                    }`,
+                  }}
                   xmlns="http://www.w3.org/2000/svg"
                   height="32px"
                   viewBox="0 -960 960 960"
@@ -30,7 +33,7 @@ const Projects = () => {
                   <path d="M480-360 280-560h400L480-360Z" />
                 </svg>
               </div>
-              {project.id === getId && (
+              {index === getId && (
                 <div className="project-desc">
                   <p>{project.content}</p>
                   <a
