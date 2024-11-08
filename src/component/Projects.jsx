@@ -1,55 +1,52 @@
-import React from "react";
-import newsPageThumbnail from './assests/newsPageThumnail.jpg'
-import simonGame from './assests/simonGame.png'
-
-
+import React, { useState } from "react";
+import projects from "../Data/Data";
 const Projects = () => {
-  const projects = [
-    {
-      name: "News Web App",
-      img: newsPageThumbnail,
-      content:
-        "I developed a responsive news web app using React.js, which fetches real-time news data from a public NewsAPI. The app allows users to browse the latest news articles, categorized by topic.It provides a clean interface for easy navigation, ensuring a seamless experience across devices.",
-      link: "https://aravindvjn.github.io/demonews/",
-      githubLink:"https://github.com/aravindvjn/demonews",
-    },
-    {
-      name: "Simon: The Desktop Game",
-      img: simonGame,
-      content:
-        "A web-based recreation of the classic Simon game, featuring four colored buttons. Players aim to match a progressively longer sequence of colors, providing a fun and challenging test of memory. Built using HTML, CSS, and JavaScript with jQuery.",
-      link: "https://aravindvjn.github.io/simonGame/",
-      githubLink : "https://github.com/aravindvjn/simonGame"
-    },
-   
-  ];
-
+  const [getId, setGetId] = useState();
   return (
     <div className="home-content">
       <h4>
         <strong>PROJECTS</strong>
       </h4>
+      <span style={{ fontSize: "12px", opacity: "0.8", fontStyle: "italic" }}>
+        Total : {projects.length}
+      </span>
       <br />
-      <div className="whole-projects" >
+      <div className="whole-projects">
         {projects.map((project) => {
           return (
-            <div className="each-project" style={{marginTop:'-35px'}}>
-              <hr />
-              <h5>{project.name}</h5>
-              <div>
-                <a href={project.link} className="project-links">
-                  <img src={project.img} alt="" />
-                </a>
-
-                <p>{project.content}</p>
-               <a href={project.githubLink} >Source Code</a>
-               <a href={project.link} style={{marginLeft:'20px'}}>Visit site</a>
-               
+            <div key={project.id} className="each-project">
+              <div 
+                onClick={() => setGetId(project.id === getId ? "" : project.id)}
+              >
+                <h6>{project.name}</h6>
+                <svg
+                  style={{ cursor: "pointer",transform:`${project.id === getId ? "rotateX(180deg)": "none"}` }}
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="32px"
+                  viewBox="0 -960 960 960"
+                  width="32px"
+                  fill="#e8eaed"
+                >
+                  <path d="M480-360 280-560h400L480-360Z" />
+                </svg>
               </div>
+              {project.id === getId && (
+                <div className="project-desc">
+                  <p>{project.content}</p>
+                  <a
+                    href={project.githubLink}
+                    alt={project.name}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              )}
             </div>
           );
         })}
-        {projects.length>2 && <h6 id="scroll-down">Scroll down</h6>}
+        {projects.length > 6 && <h6 id="scroll-down">Scroll down</h6>}
       </div>
     </div>
   );

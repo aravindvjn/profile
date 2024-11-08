@@ -135,6 +135,11 @@ body {
   text-align: justify;
 }
 
+.skills-notes p {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
 .home-links img {
   height: 40px;
   margin: 10px;
@@ -187,19 +192,37 @@ body {
 }
 
 .whole-projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 30px;
   overflow: scroll;
-  height: 65vh;
-  border: 1px solid rgba(192, 192, 192, 0.274);
-  padding: 10px;
+  max-height: 65vh;
+  border: 1px solid silver;
   border-radius: 5px;
+}
+
+.each-project {
+  padding: 20px;
+  border-bottom: 1px solid silver;
+
 }
 
 .each-project p {
   font-size: 15px;
+}
+
+.each-project>div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.project-desc {
+  padding-top: 20px;
+}
+
+.each-project h6 {
+  font-weight: bold;
+  margin: 0;
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar {
@@ -208,41 +231,49 @@ body {
 
 .each-project img {
   width: 100%;
-  
+
 }
-footer{
+
+footer {
   position: fixed;
   bottom: 2px;
   right: 2px;
   font-size: 10px;
 }
-.project-links{
+
+.project-links {
   text-decoration: none;
 }
-.project-links:hover{
+
+.project-links:hover {
   opacity: 0.8;
 }
-.project-links img{
+
+.project-links img {
   border-radius: 10px;
   border: 1px solid rgba(192, 192, 192, 0.532)
-
 }
-p.educat{
+
+p.educat {
   font-size: 25px;
 }
-.contact-child-div img{
+
+.contact-child-div img {
   height: 40px;
 }
-.contact-child-div{
+
+.contact-child-div {
   display: flex;
   margin-bottom: 20px;
   text-decoration: none;
   color: white;
   gap: 10px;
 }
-.contact-child-div:hover{
+
+.contact-child-div:hover {
   color: aqua;
 }
+
 @media (max-width : 750px) {
   .home-content {
     margin-top: 10px;
@@ -257,9 +288,15 @@ p.educat{
 
 
   .whole-projects {
-    margin: 0px 20px;
-    grid-template-columns: 1fr;
-    gap: 30px;
+    margin: 0px 0px;
+    gap: 0px;
+    max-height: none;
+    margin-bottom: 50px;
+  }
+
+  .each-project h6 {
+    line-height: 22px;
+    font-size: 14px;
   }
 
   body {
@@ -288,6 +325,10 @@ p.educat{
 
   .skills-img img {
     height: 50px;
+  }
+
+  #scroll-down {
+    display: none;
   }
 
 }

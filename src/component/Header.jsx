@@ -30,7 +30,7 @@ const Header = (props) => {
           </li>
           <li className="nav-item">
             <p id="4" onClick={pageNoHandler} className={activePage==='4'?"nav-link active-page" : "nav-link"}>
-              Eduction
+              Education
             </p>
           </li>
           <li className="nav-item">
