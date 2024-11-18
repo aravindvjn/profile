@@ -108,6 +108,8 @@ body {
 #profile-pic img {
   width: 400px;
   border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 .home-content {
@@ -231,7 +233,6 @@ body {
 
 .each-project img {
   width: 100%;
-
 }
 
 footer {
