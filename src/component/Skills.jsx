@@ -19,11 +19,12 @@ const Skills = () => {
         <img src={postgresql} alt="" />
       </div>
       <br />
-      <div className="skills-notes">
+      <div className="skills-notes" style={{paddingBottom:'20px'}}>
         <p>
           <strong>Web Development : </strong> Proficient in building full-stack
-          applications using <strong>React with TypeScript</strong>,
-          <strong> Node.js</strong>, <strong>Express</strong> and 
+          applications using <strong>React with TypeScript</strong>, 
+          <strong> Next.js</strong>,
+          <strong> Node.js</strong>, <strong>Express</strong> and
           <strong> PostgreSQL</strong> for high-performance, scalable solutions.
         </p>
         <p>
@@ -33,13 +34,18 @@ const Skills = () => {
         </p>
         <p>
           <strong>Frontend : </strong> Expertise in building responsive, dynamic
-          user interfaces using React with TypeScript, styled with{" "}
+          user interfaces using React with TypeScript and Next.js, styled with{" "}
           <strong>Tailwind CSS</strong>, and utilizing modern JavaScript (ES6+),
           CSS, and HTML.
         </p>
         <p>
           <strong>Version Control : </strong> Experienced in using Git for
           version control.
+        </p>
+        <p>
+          <strong>Cybersecurity : </strong>Enthusiastic about learning and
+          applying cybersecurity practices to enhance application security and
+          protect against vulnerabilities.
         </p>
         <p>
           <strong>Programming Knowledge : </strong> Comfortable with the basics
