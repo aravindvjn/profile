@@ -3,16 +3,16 @@ import react from "./assests/react.png";
 import node from "./assests/node.png";
 import express from "./assests/express.png";
 import postgresql from "./assests/postgresql.png";
-
+import nextjs from './assests/nextjs.png'
 const Skills = () => {
   return (
     <div className="home-content">
       <h4>
         <strong>SKILLS</strong>
       </h4>
-      <br />
       <h5>Favourites</h5>
       <div className="skills-img">
+        <img src={nextjs} alt="" />
         <img src={react} alt="" />
         <img src={node} alt="" />
         <img src={express} alt="" />

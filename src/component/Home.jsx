@@ -33,7 +33,7 @@ const Home = () => {
         I am a passionate {year || 22} year old Full-Stack Web Developer skilled
         in{" "}
         <strong>
-        React with TypeScript, Next.js, Node, Express, PostgreSQL, and Tailwind CSS
+        React with TypeScript, Next.js, Node.js, Express.js, PostgreSQL, and Tailwind CSS
         </strong>
         . With a strong foundation in both front-end and back-end technologies, I build responsive, user-friendly web applications from concept to deployment. As a <strong>Cybersecurity Enthusiast</strong>, I am also exploring security practices to enhance application safety. My focus is on creating seamless and efficient digital experiences while continually pushing the boundaries of innovation and best practices in web development.
       </p>
