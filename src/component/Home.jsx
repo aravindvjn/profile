@@ -33,22 +33,32 @@ const Home = () => {
         I am a passionate {year || 22} year old Full-Stack Web Developer skilled
         in{" "}
         <strong>
-        React with TypeScript, Next.js, Node.js, Express.js, PostgreSQL, and Tailwind CSS
+          React with TypeScript, Next.js, Node.js, Express.js, PostgreSQL, and
+          Tailwind CSS
         </strong>
-        . With a strong foundation in both front-end and back-end technologies, I build responsive, user-friendly web applications from concept to deployment. As a <strong>Cybersecurity Enthusiast</strong>, I am also exploring security practices to enhance application safety. My focus is on creating seamless and efficient digital experiences while continually pushing the boundaries of innovation and best practices in web development.
+        . With a strong foundation in both front-end and back-end technologies,
+        I build responsive, user-friendly web applications from concept to
+        deployment. As a <strong>Cybersecurity Enthusiast</strong>, I am also
+        exploring security practices to enhance application safety. My focus is
+        on creating seamless and efficient digital experiences while continually
+        pushing the boundaries of innovation and best practices in web
+        development.
       </p>
       <div className="home-links">
-        <a href="https://github.com/aravindvjn">
+        <a target="_blank" href="https://github.com/aravindvjn">
           <img src={github} alt="github" />
           <p>Github</p>
         </a>
 
-        <a href="https://www.linkedin.com/in/aravind-vijayan-aa0a27214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/aravind-vijayan-aa0a27214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        >
           {" "}
           <img src={linkedin} alt="linkedin" />
           <p>LinkedIn</p>
         </a>
-        <a href="mailto:aravind284479@gmail.com">
+        <a target="_blank" href="mailto:aravind284479@gmail.com">
           <img src={mail} alt="mail" /> <p>E-mail</p>
         </a>
       </div>
