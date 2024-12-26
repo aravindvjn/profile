@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const Home = () => {
   const year = new Date().getFullYear() - 2003;
-  const texts = ["Full Stack Developer", "Cybersecurity Enthusiast"];
+  const texts = ["Full Stack Web Developer", "Cybersecurity Enthusiast", "React Native Developer"];
   const [currentText, setCurrentText] = useState(texts[0]);
   const [isShocking, setIsShocking] = useState(false);
   let index = 0;
@@ -38,7 +38,9 @@ const Home = () => {
         </strong>
         . With a strong foundation in both front-end and back-end technologies,
         I build responsive, user-friendly web applications from concept to
-        deployment. As a <strong>Cybersecurity Enthusiast</strong>, I am also
+        deployment. While my expertise is in web development, I also have
+        experience with <strong>React Native</strong> for cross-platform mobile
+        development. As a <strong>Cybersecurity Enthusiast</strong>, I am also
         exploring security practices to enhance application safety. My focus is
         on creating seamless and efficient digital experiences while continually
         pushing the boundaries of innovation and best practices in web
