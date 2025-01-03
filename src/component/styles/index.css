@@ -296,6 +296,12 @@ p.educat {
   text-decoration: none;
   color: white;
   gap: 10px;
+  align-items: center;
+  width: fit-content;
+}
+
+.contact-child-div p {
+  margin: 0;
 }
 
 .contact-child-div:hover {
@@ -398,7 +404,7 @@ p.educat {
   }
 }
 
-.skills-notes span{
+.skills-notes span {
   font-weight: bold;
 }
 
