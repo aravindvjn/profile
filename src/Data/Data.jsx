@@ -30,10 +30,22 @@ const projects = [
     githubLink: "https://github.com/aravindvjn/Chat-App-React-Native",
   },
   {
+    name: "Expense Tracker App",
+    content:
+      "The Expense Tracker app is a React Native application built with TypeScript, utilizing TanStack Query for efficient data fetching and state management. It offers a seamless experience for tracking and categorizing expenses, with intuitive navigation and secure data storage. The app's responsive design ensures users can easily monitor their spending and stay in control of their finances.",
+    githubLink: "https://github.com/aravindvjn/track-expenses-rn",
+  },
+  {
     name: "Shopping Web App",
     content:
       "This Shopping Web App provides an engaging, secure online shopping experience. Built with React and AOS for smooth animations, it fetches real-time product data from a public API. Secure account management is handled with Node.js and JWT, ensuring user data protection. Styled with Tailwind CSS for a modern look, the app offers a responsive, user-friendly interface.",
     githubLink: "https://github.com/aravindvjn/Shopee",
+  },
+  {
+    name: "Never Have I Ever App",
+    content:
+      "Never Have I Ever is a React Native app built with Expo, featuring a Node.js backend and Socket.IO for real-time communication. Users can create private rooms with a unique ID and password, allowing friends to join and play together. The app offers a seamless and interactive experience, making it easy to connect and enjoy the game across both mobile and web platforms.",
+    githubLink: "https://github.com/aravindvjn/never-have-i-ever-RN",
   },
   {
     name: "Meal Recipe Explorer",
