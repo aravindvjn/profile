@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Instagram Clone",
     content:
-      "Instagram clone app, developed using React Native, TypeScript, and Firebase, closely replicates the appearance and functionality of the original Instagram. The app allows users to browse and interact with feeds, watch reels, like posts, follow other users, and share their own photos and reels. With real-time updates powered by Firebase, users experience seamless interactions and instant feedback. The familiar interface, combined with smooth navigation and robust performance, ensures an engaging and intuitive social media experience that mirrors the look and feel of Instagram.",
+      "Instagram clone app, developed using React Native, TypeScript, and Firebase, closely replicates the appearance and functionality of the original Instagram. The app allows users to browse and interact with feeds, watch reels, like posts, follow other users, and share their own photos and reels. With real-time updates powered by Firebase, users experience seamless interactions and instant feedback. Additionally, the app includes real-time chatting functionality, allowing users to send and receive messages instantly, enhancing the social experience. The familiar interface, combined with smooth navigation and robust performance, ensures an engaging and intuitive social media experience that mirrors the look and feel of Instagram.",
     githubLink: "https://github.com/aravindvjn/Instagram-Clone-React-Native",
   },
   {
