@@ -6,6 +6,12 @@ const projects = [
     githubLink: "https://github.com/aravindvjn/Ts-Chat-App",
   },
   {
+    name: "Instagram Clone",
+    content:
+      "Instagram clone app, developed using React Native, TypeScript, and Firebase, closely replicates the appearance and functionality of the original Instagram. The app allows users to browse and interact with feeds, watch reels, like posts, follow other users, and share their own photos and reels. With real-time updates powered by Firebase, users experience seamless interactions and instant feedback. The familiar interface, combined with smooth navigation and robust performance, ensures an engaging and intuitive social media experience that mirrors the look and feel of Instagram.",
+    githubLink: "https://github.com/aravindvjn/Instagram-Clone-React-Native",
+  },
+  {
     name: "E-commerce",
     content:
       "Quintrelix Shopee is an educational e-commerce site built with React, Node.js, Express.js, and PostgreSQL. It simulates features like browsing, cart management, order tracking, and user authentication with Passport.js. The admin panel allows full customization of products and site content.",
