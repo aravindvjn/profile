@@ -103,6 +103,7 @@ body {
 #profile-pic {
   display: flex;
   margin: 70px 0px;
+  margin-bottom: 10px;
   justify-content: center;
 }
 

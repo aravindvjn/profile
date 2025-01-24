@@ -7,7 +7,7 @@ import Projects from './Projects'
 
 const Body = (props) => {
   return (
-    <div className='col-md-6 body-class'>
+    <div className='col-lg-7 body-class'>
       {props.renderPage === '1' && <Home />}
       {props.renderPage === '4' && <Education />}
       {props.renderPage === '5' && <Contact />}
