@@ -42,6 +42,12 @@ const projects = [
     githubLink: "https://github.com/aravindvjn/track-expenses-rn",
   },
   {
+    name: "Codex : Developers Social Network",
+    content:
+      "This web app is a developer-focused social network where users can share and discuss code snippets. Built with Next.js, it features authentication through Google and GitHub via NextAuth, a PostgreSQL backend for secure data management, Tailwind CSS for modern styling, TypeScript for robust development, and Framer Motion for smooth animations.",
+    githubLink: "https://github.com/aravindvjn/codex",
+  },
+  {
     name: "Shopping Web App",
     content:
       "This Shopping Web App provides an engaging, secure online shopping experience. Built with React and AOS for smooth animations, it fetches real-time product data from a public API. Secure account management is handled with Node.js and JWT, ensuring user data protection. Styled with Tailwind CSS for a modern look, the app offers a responsive, user-friendly interface.",
