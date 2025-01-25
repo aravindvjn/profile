@@ -10,7 +10,7 @@ const Skills = () => {
     <Animation>
       <div className="home-content">
         <h4>
-          <span>SKILLS</span>
+          <strong>SKILLS</strong>
         </h4>
         <h5>Favourites</h5>
         <div className="skills-img">
